@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedu class Psedu Element</title>
+
+    <style> 
+
+
+        /* first-child,last-child,nth:child(), :nth-last-child(),::first-letter,::first-line,::selection,::before,::after */
+    
+    p::first-line{ 
+        background-color: black;
+        color: white;
+        font-size: 3rem;
+    }
+    .demo::before, .demo::after{ 
+        content: '';
+        background-color: red;
+        width: 50%;
+        height: 20px;
+        display: inline-block;
+    }
+
+    input{ 
+        width: 30%;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    input::placeholder{ 
+        color: red;
+        text-align: center;
+       
+    }
+    
+    </style>
+
+
+</head>
+<body>
+
+    <div class="demo"> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni, consectetur dolores dolorem deleniti eveniet excepturi iste hic similique repellat!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni, consectetur dolores dolorem deleniti eveniet excepturi iste hic similique repellat!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni, consectetur dolores dolorem deleniti eveniet excepturi iste hic similique repellat!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magni, consectetur dolores dolorem deleniti eveniet excepturi iste hic similique repellat!</p>
+    </div>
+    
+    <input type="text" placeholder="hello everyone">
+</body>
+</html>
