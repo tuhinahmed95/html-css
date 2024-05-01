@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow And Toltip</title>
+
+    <style> 
+    div{ 
+        width: 200px;
+        height: 200px;
+        border: 3px solid red;
+        background-color: aqua;
+        overflow: scroll;
+    }
+    .tooltip{ 
+        position: relative;
+    }
+    .tooltip .tooltip-text{ 
+        visibility: hidden;
+        background-color: red;
+        width: 150px;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        text-align: center;
+        top: 30px;
+        left: 20px;
+        z-index: 1;
+
+    }
+    .tooltip:hover .tooltip-text{ 
+        visibility: visible;
+    }
+    
+    </style>
+
+
+</head>
+<body>
+
+    <a href="#" class="tooltip"> 
+        Facebook
+        <span class="tooltip-text">Facebook is a social media</span>
+    </a>
+    <br><br><br><br>
+
+    <div> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quam illum laborum, debitis autem voluptatibus corporis quae error suscipit iusto quo. Odio iste voluptate incidunt dolores tempore, voluptates dolor numquam officia sed doloribus assumenda nostrum enim necessitatibus fugit, blanditiis delectus excepturi ducimus iusto quasi. Quasi, in debitis. Veritatis culpa totam sed quaerat harum vero, deserunt corporis qui, eaque similique ut architecto et blanditiis deleniti repellat consectetur nihil dolore fugiat veniam! Aut corrupti eum consequuntur illo est laudantium sapiente, quod dolorem deserunt quo perspiciatis exercitationem doloribus eaque dignissimos sint dicta at. Ad voluptates doloremque sapiente rerum magni harum corporis labore, accusantium tempora architecto rem neque quia porro quisquam dignissimos sequi nesciunt illum aperiam, cumque enim. Molestias tempora vitae, magni repellat labore laboriosam ratione voluptatibus molestiae quia et cupiditate repudiandae quidem neque ut in a reiciendis quae nam, architecto laudantium. Excepturi voluptatibus odio dolor fugiat repellendus provident cumque velit? Quasi unde tenetur laudantium sequi magnam sit? Totam dolores ex asperiores distinctio repellat pariatur nemo reiciendis? Doloribus, ipsam. Voluptates labore eos deleniti autem harum quibusdam, facere et sint, non, hic quis repudiandae voluptatibus tenetur doloribus asperiores illo repellat odio soluta cum eligendi. Ex neque quibusdam, unde blanditiis adipisci ducimus esse voluptatum tempora sit.
+    </div>
+    
+</body>
+</html>
