@@ -1,0 +1,28 @@
+
+*{ 
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:700px) {
+    body{ 
+        background-color: antiquewhite;
+    }
+    h1{ 
+        color: white;
+    }
+    h2{ 
+        display: visible;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body { 
+        background-color: green;
+    }  
+    h1{ 
+        color: red;
+    } 
+    h2{ 
+        display: visible;
+    } 
+}
