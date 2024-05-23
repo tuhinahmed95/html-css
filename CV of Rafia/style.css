@@ -1,0 +1,201 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: #eee;
+}
+
+.container{ 
+    max-width: 1000px;
+    background-color: #e4f9e4;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{ 
+
+}
+
+.profile-image{ 
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{ 
+    float: left;
+    padding: 30px;
+
+}
+
+h1,h2,h3,h4,h5,h6{ 
+    color: #11999e;
+}
+
+.header-contact{ 
+    float: right;
+    padding: 30px;
+}
+.header-contact a{ 
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+
+}
+.header-contact a:hover{ 
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.clear-div{ 
+    clear: both;
+}
+hr{ 
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: none;
+    
+}
+
+/* personal section */
+
+
+#personal-section{ 
+
+}
+
+.content{ 
+
+}
+
+.left-div{ 
+    width: 30%;
+    float: left;
+}
+.right-div{ 
+    width: 70%;
+    float: left;
+
+}
+
+.comon-hr{ 
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+}
+
+#skill-section{ 
+
+}
+.work{ 
+
+}
+.leftkey-div{ 
+    width: 30%;
+    float: left;
+}
+.rightkey-div{
+    width: 70%;
+    float: left;
+
+}
+
+.work-hr{ 
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+}
+
+/* education section */
+#education-section{ 
+
+}
+.education{ 
+
+}
+.left-education-div{ 
+    width: 30%;
+    float: left;
+}
+.right-education-div{ 
+    width: 70%;
+    float: left;
+}
+.first{ 
+    width: 45%;
+    float: left;
+}
+.second{ 
+    width: 45%;
+    float: right;
+}
+
+.education-hr{ 
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+}
+
+/* reference section */
+#reference-section{ 
+
+}
+.reference{ 
+
+}
+.left-reference-div{ 
+    width: 30%;
+    float: left;
+}
+.right-reference-div{ 
+    width: 70%;
+    float: left;
+}
+.first-ref{ 
+    width: 45%;
+    float: left;
+}
+.second-ref{ 
+    width: 45%;
+    float: right;
+}
+
+.reference-hr{ 
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin:20px auto;
+}
+
+
+/* bottom section */
+.bottom-container{ 
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding:10px ;
+}
+.bottom-container a{ 
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+
+}
+.bottom-container a:hover{ 
+    background-color: rebeccapurple;
+    color: red;
+}
+.bottom-container p{ 
+    margin-top: 10px;
+    color: white;
+}
