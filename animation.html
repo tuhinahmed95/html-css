@@ -8,8 +8,31 @@
     <style> 
         img{ 
             max-width: 200px;
-            height: auto;
-            border: 2px;
+            height: 5px auto;
+            border: x solid black;
+
+            display: block;
+            margin:0 auto;
+
+            margin-top: 100px;
+            border-radius: 50%;
+
+            animation-name: img-anim;
+            animation-duration: 3s;
+        }
+        @keyframes img-anim { 
+            from{ 
+                /* max-width: 200px; */
+                border-color: x solid black;
+
+
+            }
+            to{ 
+                 /* max-width: 300px; */
+                border-color: x solid red;
+
+                
+            }
         }
     </style>
 
