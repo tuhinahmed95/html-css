@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text And Font</title>
+    <title>My Webpage</title>
     <style> 
         img{ 
             width: 200px;
             height: 100px;
+        }
+        .my-link-style:hover{ 
+            text-decoration: underline;
+            background-color: black;
         }
     </style>
 
@@ -20,8 +24,21 @@
 
     <div class="container"> 
 
-        <header class="bg-primary text-white text-center mt-2 py-3"> 
-            <h1>study bootstrap</h1>
+        <header class="bg-primary p-3"> 
+            <div class="row"> 
+                <div class="col-lg-5 m-auto"> 
+                    <h1 class="text-white text-center mb-0 py-2">My Webpage</h1>
+                </div>
+
+                <div class="col-lg-7"> 
+                    <ul class="nav justify-content-center py-3"> 
+                        <li class="nav-item"><a class="my-link-style nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item"><a class="my-link-style nav-link text-white" href="#">About</a></li>
+                        <li class="nav-item"><a class="my-link-style nav-link text-white" href="#">Service</a></li>
+                        <li class="nav-item"><a class="my-link-style nav-link text-white" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
 
         <main> 
@@ -139,6 +156,22 @@
              </div>
             </div>
             <!-- customer review section end -->
+
+            <!-- toggleable dynamic start here -->
+             <div class="other-section"> 
+                <ul class="nav"> 
+                    <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Skill</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Hobby</a></li>
+                </ul>
+            </ul>
+                <div class="tab-content"> 
+                    <div id="edu">1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit magni beatae possimus suscipit placeat blanditiis vero quia delectus laborum!</div>
+                    <div id="sill">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit magni beatae possimus suscipit placeat blanditiis vero quia delectus laborum!</div>
+                    <div id="hobby">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit magni beatae possimus suscipit placeat blanditiis vero quia delectus laborum!</div>
+                </div>
+             </div>
+            <!-- toggleable dynamic end here -->
 
 
             <!-- student section list here start -->
