@@ -78,7 +78,15 @@ header{
 
 .features-col:hover{ 
     transform: scale(1.1);
-    box-shadow: 2px 5px 4px black;
+    box-shadow: 2px 3px 4px black;
+    
+}
+
+.icon-style{ 
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
 }
 
 /* features start */
