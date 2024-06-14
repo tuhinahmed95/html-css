@@ -121,5 +121,9 @@ header{
     font-weight: 700 !important;
 }
 
+.star i{ 
+    width: 20px;
+}
+
 /* about-section start*/
 
