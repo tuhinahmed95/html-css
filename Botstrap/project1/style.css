@@ -144,3 +144,10 @@ header{
     box-shadow: 2px 6px 5px black;
 }
 /* tutorial section end */
+
+
+/* feedback section start */
+#feedback{ 
+    padding: 5%;
+    background-color: #5eaaa8;
+}
