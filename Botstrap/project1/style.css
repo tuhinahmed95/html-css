@@ -151,3 +151,17 @@ header{
     padding: 5%;
     background-color: #5eaaa8;
 }
+
+.carousel-item{ 
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.feedback-img{ 
+    width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+}
+/* feedback section end */
