@@ -169,6 +169,35 @@ header{
 /* contact section start */
 #contact{ 
     padding: 2% 10%;
-    background-color: #5eaaa8;
+    background-color: #575d5d;
+}
+
+.form-group label{ 
+    margin-bottom: 0;
+    font-weight: bold;
 }
 /* contact section start */
+
+/* footer starts */
+footer{ 
+    padding: 1% 10%;
+    background-color: #056676;
+    
+}
+
+footer a{ 
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover{ 
+    color: black;
+}
+/* footer ends */
+
+
+@media (max-width:768){ 
+    .nav-link{ 
+        background: rgba(0,0,0,0.7);
+    }
+}
